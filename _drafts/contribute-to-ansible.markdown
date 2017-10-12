@@ -1,5 +1,9 @@
-# How to contribute on Ansible project
-
+---
+layout: post
+title:  "How to contribute to ansible project"
+date:   2016-12-6 12:55:28 +0100
+categories: ansible contribute version git fork bug report
+---
 ## Introduction
 
 Because we find Ansible, just awsome, we would like to share our experience about contributing on it. 
@@ -38,10 +42,23 @@ For your information, this is a very interesting part to contribute on Ansible.
 
 ## Why contribute?
 
-    A la recherche de volontaires,
-    montée en compétence sur le sujet
-    pouvoir corriger d'éventuels bugs
-    rajouter des modules ou plugins
+Ansible usage have grew up rapidly and many issues are continously opened.
+
+An issue can be a feature request, a bug reporting, or even simply a question to the maintainance team.
+Rather than considering, ansible need contributors to continue to improve its quality and stability every days..
+
+The big parts of contributors are volunteers and workss on ansible on free times.
+The rest of the contributors are considered as commiters, they are members of the core team.
+
+You can contribute by adding parts of documentation, migrate code, fix issues or even adding features.
+So all contributions are welcomes!
+
+Contributing helps you to improve your skill about ansible but also improve your
+skills on large distribued development team all around the world.
+
+You would become more efficient with git usages, concepts, and a lot of stuffs very useful in the real life.
+
+Working on this project allowed us to discover it in depth. We discovered new uses, new modules, and a lot of nice things.
 
 ## Step 1 - Prepare environment
     a. Récupérer les sources
