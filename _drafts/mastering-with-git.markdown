@@ -8,8 +8,7 @@ categories: devops project management versioning workflow
 Work on project with people must be controlled by rules, systems, and best
 pratices work ensure the long life of the project.
 
-Working on project can be addressed to different publics like, a complet project team (private or free projects), 
-simple user who want to contribute to an upstream project, or also core team of a project who want work with external contributors.
+Working on a project may address serveral cases. It could be a single developper who needs to version his code, a working team which needs to work together easily, or an open project which let the capability to contribute to other developpers than the core team.
 
 This post introduce a complete describe of these use cases and offer to you step by step explaination of these and the 
 best pratices for manage them properly.
