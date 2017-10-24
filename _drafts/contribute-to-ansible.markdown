@@ -115,13 +115,21 @@ Now it's time to start contributing!
 #### a. Setup your fork
 
 First, go to the [ansible github official page](https://github.com/ansible/ansible) and click on the fork button.
+
+![Fork ansible]({{ "/assets/contribute-to-ansible/fork-ansible.png" | absolute_url }})
+
 Wait a few moments and now your fork appear in your github account.
+
+![Now ansible was forked]({{ "/assets/contribute-to-ansible/forked.png" | absolute_url }})
 
 Now prepare your local environment.
 
 ```sh
+$ # setup your identity
 $ git config --global user.name "<your name>"
 $ git config --global user.email "<your-email@example.com>"
+$ # setup pushing method
+$ git config --global push.default current
 ```
 
 Clone your fork localy and place yourself to the right branch:
@@ -186,7 +194,7 @@ If you work on documentation all development dependencies are presents in `./doc
 $ pip install -r ./docsite_requirements.txt
 ```
 
-For working on bugfix, tests, or new features you need to install specific requirements:
+To working on bugfix, tests, or new features you need to install specific requirements:
 ```sh
 $ # minimal subset of requirements to install
 $ pip install -r ./test/runner/requirements/units.txt
