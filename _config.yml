@@ -24,9 +24,3 @@ github_username:  gr0und-s3ct0r
 
 # Build settings
 markdown: kramdown
-theme: minima
-gems:
-  - jekyll-feed
-exclude:
-  - Gemfile
-  - Gemfile.lock
