@@ -1,4 +1,11 @@
 ---
 layout: page
 ---
-### [Our projects](https://github.com/gr0und-s3ct0r/)
+### Posts
+<ul>
+  {% for post in site.posts %}
+    <li>
+        <a href="{{ post.url }}">{{ post.title }}</a>
+    </li>
+  {% endfor %}
+</ul>

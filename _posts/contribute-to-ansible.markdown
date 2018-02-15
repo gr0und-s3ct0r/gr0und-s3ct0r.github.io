@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "How to contribute to ansible project"
-date:   2016-12-6 12:55:28 +0100
+date:   2018-02-15 15:00:00 +0100
 categories: ansible contribute version git fork bug report
 ---
 ## Introduction
